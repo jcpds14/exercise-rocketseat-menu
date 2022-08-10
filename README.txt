@@ -1,0 +1,1 @@
+Fazendo exercício da maratona Explorer 3.0 e praticando HTML/CSS
