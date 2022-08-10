@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: #FFEDD5;
+    font-family:'Lora', serif;
 }
 header{
     display: flex;
@@ -29,7 +30,7 @@ h1{
     text-transform: uppercase;
 }
 h1 span{
-    color: #5e3500;
+    color: #9c5c09;
 }
 .category{
     text-align: center;
@@ -41,7 +42,47 @@ h1 span{
 .foods-drinks{
     display: flex;
     margin-top:30px;
+    padding: 5px;
 }
-.food-drink{
+.foods-drinks.dark{
+    background-color: #ffe5c2;
+}
 
+
+
+
+
+
+
+
+
+
+/*FOOD PAGES*/
+.food-drink-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.food-drink--photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+.food-drink--photo:hover{
+    width: 400px;
+    height: 400px;
+    box-shadow: 20px 20px 80px #9c5c09;
+    transition: 0.5s;
+}
+.food-drink--photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.food-page--price{
+    font-size:30px;
+    margin-top:30px;
 }
